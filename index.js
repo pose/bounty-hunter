@@ -12,13 +12,13 @@ function arrayToDictionary(list, dict) {
   return list.reduce(function (dict, item) {
     dict[item[0]] = item[1];
     return dict;
-  }, dict || {});
+  }, dict || {});
 }
 
 exports._arrayToDictionary = arrayToDictionary;
 
 function findExistingRepositories(repositoriesPath, cb, open) {
-  open = open || function (path, cb) {
+  open = open || function (path, cb) {
     git.Repo.open(path, cb);
   };
 
