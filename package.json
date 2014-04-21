@@ -1,0 +1,13 @@
+{
+  "name": "bounty-hunter",
+  "version": "0.0.1",
+  "dependencies": {
+    "async": "^0.7.0",
+    "nodegit": "^0.1.1",
+    "octonode": "^0.6.2"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "mock-fs": "^2.2.0"
+  }
+}
